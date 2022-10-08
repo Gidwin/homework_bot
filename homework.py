@@ -14,7 +14,7 @@ logging.basicConfig(
     filename='error.log',
     filemode='a',
     format='%(asctime)s, %(levelname)s, %(message)s, %(name)s'
-    )
+)
 logger = logging.getLogger(__name__)
 logger.addHandler(
     logging.StreamHandler()

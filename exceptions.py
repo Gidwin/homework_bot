@@ -4,12 +4,6 @@ class NotStatusOkException(Exception):
     pass
 
 
-class NotTokenException(Exception):
-    """Исключение нет необходимых токенов."""
-
-    pass
-
-
-class NoDelivaryMessage(Exception):
+class NoDeliveryMessage(Exception):
     """Недоставленно сообщение в телеграмм."""
     pass
